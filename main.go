@@ -93,7 +93,7 @@ func outputLines(lines []string, lineCounts map[string]int, opts *options) {
 }
 
 func main() {
-	countFlag := flag.Bool("c", false, "Подсчитать количество повторений строк")
+	countFlag := flag.Bool("c", false, "Подсчитать количество повторений строк ")
 	duplicateFlag := flag.Bool("d", false, "Вывести только повторяющиеся строки")
 	uniqueFlag := flag.Bool("u", false, "Вывести только уникальные строки")
 	ignoreCaseFlag := flag.Bool("i", false, "Игнорировать регистр")
