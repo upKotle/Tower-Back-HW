@@ -86,7 +86,6 @@ func outputLines(lines []string, lineCounts map[string]int, opts *options) {
 			}
 		}
 
-		// Выводим последнюю строку, если это необходимо
 		if i == len(lines)-1 && line != "" {
 			fmt.Println(line)
 		}
